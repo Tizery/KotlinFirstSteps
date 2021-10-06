@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">KotlinFirstSteps</string>
+    <string name="button">button</string>
+    <string name="tools_text">Some Text</string>
 </resources>
