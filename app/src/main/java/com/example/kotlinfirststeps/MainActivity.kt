@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         //Show Toast
         Toast.makeText(this@MainActivity, "TOAST", Toast.LENGTH_LONG).show()
         //Comment1
+        //Comment2
 
         val button: Button = findViewById(R.id.action_btn)
         button.setOnClickListener { Toast.makeText(this, "Hello", Toast.LENGTH_LONG).show() }
