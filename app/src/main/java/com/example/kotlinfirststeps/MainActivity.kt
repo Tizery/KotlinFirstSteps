@@ -16,6 +16,8 @@ class MainActivity : AppCompatActivity() {
         //Comment1
         //Comment2
 
+        //Comment4-testing_git2
+
         val button: Button = findViewById(R.id.action_btn)
         button.setOnClickListener { Toast.makeText(this, "Hello", Toast.LENGTH_LONG).show() }
 
