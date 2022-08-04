@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //Show Toast
         Toast.makeText(this@MainActivity, "TOAST", Toast.LENGTH_LONG).show()
-
+        //Comment3-prePR
+        //Comment5-prePR
 
         val button: Button = findViewById(R.id.action_btn)
         button.setOnClickListener { Toast.makeText(this, "Hello", Toast.LENGTH_LONG).show() }
