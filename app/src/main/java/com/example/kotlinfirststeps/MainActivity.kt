@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Toast.makeText(this@MainActivity, "TOAST", Toast.LENGTH_LONG)
+
 
         val button: Button = findViewById(R.id.action_btn)
         button.setOnClickListener { Toast.makeText(this, "Hello", Toast.LENGTH_LONG).show() }
@@ -47,6 +49,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         cycles()
+
 
     }
 
